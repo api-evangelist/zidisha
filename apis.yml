@@ -1,7 +1,30 @@
 aid: zidisha
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zidisha.png
 name: Zidisha
-description: Zidisha is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zidisha is a nonprofit direct person-to-person microlending and crowdfunding
+  platform that connects funders in wealthier countries directly with
+  low-income entrepreneurs in developing countries, with no local intermediary
+  taking a cut. Founded in 2009 and backed by Y Combinator, Zidisha lets
+  entrepreneurs apply for funding, communicate directly with their backers,
+  post updates, and repay at zero interest so that funds recycle into new
+  projects. The platform focuses on agriculture, retail, transportation, and
+  small-business growth across regions including Kenya, Indonesia, Burkina
+  Faso, and beyond. Zidisha operates as a consumer-facing web platform and
+  does not currently publish a public developer API, SDK, or integration
+  surface; this profile tracks its public web presence in the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/zidisha/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Microlending
+- Crowdfunding
+- Fintech
+- Nonprofit
+- Financial Inclusion
+- Philanthropy
+- Peer to Peer Lending
 apis: []
+common:
+- type: Website
+  url: https://www.zidisha.org/
+- type: About
+  url: https://www.zidisha.org/about
+- type: GettingStarted
+  url: https://www.zidisha.org/how-it-works
+- type: HelpCenter
+  url: https://www.zidisha.org/faq
+- type: SignUp
+  url: https://www.zidisha.org/signup
+- type: Login
+  url: https://www.zidisha.org/login
+- type: Support
+  url: https://www.zidisha.org/contact
+- type: Blog
+  url: https://blog.zidisha.org/
+- type: TermsOfService
+  url: https://www.zidisha.org/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.zidisha.org/privacy
+- type: DomainSecurity
+  url: security/zidisha-domain-security.yml
+- type: WellKnown
+  url: well-known/zidisha-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
